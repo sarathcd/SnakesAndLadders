@@ -32,36 +32,4 @@ namespace SnakesAndLadders
             return new Die();
         }
     }
-
-    //public interface ISnakeAndLadderFactory<T>
-    //{
-    //    List<SnakeOrLadder<T>> GetSnakesAndLadders(List<ISquare<T>> squares);
-    //}
-
-    //public class SnakesAndLaddersFactory<T> : ISnakeAndLadderFactory<T>
-    //{
-
-    //    public List<SnakeOrLadder<T>> GetSnakesAndLadders(List<ISquare<T>> squares)
-    //    {
-    //        var snakeOrLadderList = new List<SnakeOrLadder<T>>();
-    //        snakeOrLadderList.Add(new SnakeOrLadder<T>
-    //        {
-    //            LandingSquare = squares.Skip(5).First(),
-    //            MoveToSquare = squares.Skip(20).First()
-    //        });
-
-    //        //snake
-    //        snakeOrLadderList.Add(new SnakeOrLadder<T>
-    //        {
-    //            LandingSquare = squares.Skip(30).First(),
-    //            MoveToSquare = squares.Skip(8).First()
-    //        });
-    //    }
-    //}
-
-    //public class SnakeOrLadder<T>
-    //{
-    //    public ISquare<T> LandingSquare { get; set; }
-    //    public ISquare<T> MoveToSquare { get; set; }
-    //}
 }
